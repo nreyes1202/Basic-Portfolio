@@ -1,16 +1,18 @@
 body {
     background:#ffffff; 
   }
-header {
+#content {
     display: block;
     background-color: #ffffff;
     box-sizing: 100%;
-    border-bottom: 20px #cccccc;
+    border-bottom: solid #cccccc;
+    border-bottom-width:  medium;
+    width: 100%;
   }
 div {
     display: block;
     width: 200px;
-    height: 100px;
+    height: 40px;
     background-color:#4aaaa5;
     
   }
