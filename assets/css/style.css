@@ -9,5 +9,8 @@ header {
 div {
     display: block;
     background-color:#4aaaa5;
-
-}
+  }
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+  }
