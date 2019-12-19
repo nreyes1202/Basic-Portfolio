@@ -5,12 +5,18 @@ header {
     display: block;
     background-color: #ffffff;
     box-sizing: 100%;
+    border-bottom: 20px #cccccc;
   }
 div {
     display: block;
+    width: 200px;
+    height: 100px;
     background-color:#4aaaa5;
+    
   }
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
+    font-size: 25px;
+    text-align: center;
   }
