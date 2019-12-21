@@ -1,5 +1,5 @@
 body {
-   background-color: lightgray;
+   background-color: rgb(240, 231, 231);
    margin: 0;
   }
 #navbar {
@@ -46,4 +46,18 @@ h1 {
 }
 #name h1 {
     margin: 0;
+}
+#content {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border: solid #dddddd;
+}
+h2 {
+    color: #4aaaa5;
+}
+.textwrap {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
