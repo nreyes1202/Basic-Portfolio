@@ -121,12 +121,25 @@ h5 {
 }
 .button {
     background-color: #4aaaa5;
-    padding: 15px 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
     text-align: center;
     display: inline-block;
 }
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.portfolio {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    width: 960px;
+    margin: 0 auto;
 }
