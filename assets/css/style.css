@@ -13,19 +13,23 @@ body {
     top: 0%;
     z-index: 999;
   }
-#navbar ul{
+ul{
     float: right;
-    position: absolute;
-    padding-left: 80%;
+    position: relative;
+    margin-right: 0;
+    margin-top: -30px;
 }
 li {
     list-style: none;
     display: inline-block;
     color: #777777;
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+.header {
+    width: 960px;
+    margin: 0 auto;
 }
-h1, h2, {
+h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 h1 {
@@ -36,9 +40,9 @@ h1 {
     line-height: 50px;
   }
 #name {
-    position: absolute;
+    position: relative;
     top: 0%;
-    margin-left: 60px;
+    margin-left: 0%;
     display: block;
     width: 200px;
     height: 50px;
@@ -52,12 +56,40 @@ h1 {
     display: block;
     background-color: #ffffff;
     border: solid #dddddd;
+    width: 960px;
+    margin: 0 auto;
 }
 h2 {
     color: #4aaaa5;
+    padding-left: 10px;
+}
+.inner-border {
+    border: 1px solid #dddddd;
+    margin: 10px;
 }
 .textwrap {
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+}
+p {
+    text-align: justify;
+    margin: 15px;
+}
+main {
+    margin-top: 20px;
+}
+.footer {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #666666;
+    border-top: solid 4px #4aaaa5;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+h4 {
+    color: #ffffff;
+    font-size: 10px;
 }
